@@ -1,13 +1,15 @@
-
-import Search from './components/Search/Search';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-      <div >
-            <Search/>
-                </div>
-                  );
-                  }
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+…    </div>
+  );
+}
 
-                  export default App;
+export default App;
